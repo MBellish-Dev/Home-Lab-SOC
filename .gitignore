@@ -1,0 +1,46 @@
+Environment files
+.env
+.env.*
+!.env.example
+Credentials and private keys
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_rsa.pub
+Logs
+*.log
+logs/
+Secrets
+secrets/
+credentials/
+Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+IDE
+.vscode/
+.idea/
+Python
+pycache/
+*.py[cod]
+.venv/
+venv/
+Terraform
+.terraform/
+*.tfstate
+.tfstate.
+Temporary files
+*.tmp
+*.temp
+Backup files
+*.bak
+*.backup
+Large virtual machine files
+*.iso
+*.img
+*.qcow2
+*.raw
+Local configuration
+config.local.*
